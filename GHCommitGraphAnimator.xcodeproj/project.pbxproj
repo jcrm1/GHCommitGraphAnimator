@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8F2CDD2A9310140030E601 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F2CDC2A9310140030E601 /* popup.html */; };
+		0BA28BFA2A188F3D003A4379 /* badapple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BA28BF92A188F3D003A4379 /* badapple.mp3 */; };
+		0BEDBC852A12B3A400BD626E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDBC842A12B3A400BD626E /* AppDelegate.swift */; };
+		0BEDBC892A12B3A400BD626E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC872A12B3A400BD626E /* Main.html */; };
+		0BEDBC8B2A12B3A400BD626E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC8A2A12B3A400BD626E /* Icon.png */; };
+		0BEDBC8D2A12B3A400BD626E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC8C2A12B3A400BD626E /* Style.css */; };
+		0BEDBC8F2A12B3A400BD626E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC8E2A12B3A400BD626E /* Script.js */; };
+		0BEDBC912A12B3A400BD626E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDBC902A12B3A400BD626E /* ViewController.swift */; };
+		0BEDBC942A12B3A400BD626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC922A12B3A400BD626E /* Main.storyboard */; };
+		0BEDBC962A12B3A500BD626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBC952A12B3A500BD626E /* Assets.xcassets */; };
+		0BEDBC9E2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0BEDBC9D2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0BEDBCA32A12B3A500BD626E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDBCA22A12B3A500BD626E /* SafariWebExtensionHandler.swift */; };
+		0BEDBCA62A12B3A500BD626E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBCA52A12B3A500BD626E /* _locales */; };
+		0BEDBCA82A12B3A500BD626E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBCA72A12B3A500BD626E /* images */; };
+		0BEDBCAA2A12B3A500BD626E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBCA92A12B3A500BD626E /* manifest.json */; };
+		0BEDBCAE2A12B3A500BD626E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBCAD2A12B3A500BD626E /* content.js */; };
+		0BEDBCB22A12B3A500BD626E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDBCB12A12B3A500BD626E /* popup.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEDBC9F2A12B3A500BD626E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BEDBC792A12B3A400BD626E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BEDBC9C2A12B3A500BD626E;
+			remoteInfo = "GHCommitGraphAnimator Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BEDBCBC2A12B3A500BD626E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0BEDBC9E2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B8F2CDC2A9310140030E601 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0BA28BF92A188F3D003A4379 /* badapple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badapple.mp3; sourceTree = "<group>"; };
+		0BEDBC812A12B3A400BD626E /* GHCommitGraphAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHCommitGraphAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEDBC842A12B3A400BD626E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BEDBC882A12B3A400BD626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0BEDBC8A2A12B3A400BD626E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0BEDBC8C2A12B3A400BD626E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0BEDBC8E2A12B3A400BD626E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0BEDBC902A12B3A400BD626E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BEDBC932A12B3A400BD626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BEDBC952A12B3A500BD626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BEDBC972A12B3A500BD626E /* GHCommitGraphAnimator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GHCommitGraphAnimator.entitlements; sourceTree = "<group>"; };
+		0BEDBC982A12B3A500BD626E /* GHCommitGraphAnimator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GHCommitGraphAnimator.entitlements; sourceTree = "<group>"; };
+		0BEDBC9D2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GHCommitGraphAnimator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEDBCA22A12B3A500BD626E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0BEDBCA52A12B3A500BD626E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		0BEDBCA72A12B3A500BD626E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0BEDBCA92A12B3A500BD626E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0BEDBCAD2A12B3A500BD626E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0BEDBCB12A12B3A500BD626E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		0BEDBCB52A12B3A500BD626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEDBCB62A12B3A500BD626E /* GHCommitGraphAnimator_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GHCommitGraphAnimator_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEDBC7E2A12B3A400BD626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEDBC9A2A12B3A500BD626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEDBC782A12B3A400BD626E = {
+			isa = PBXGroup;
+			children = (
+				0BEDBC832A12B3A400BD626E /* GHCommitGraphAnimator */,
+				0BEDBCA12A12B3A500BD626E /* GHCommitGraphAnimator Extension */,
+				0BEDBC822A12B3A400BD626E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEDBC822A12B3A400BD626E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEDBC812A12B3A400BD626E /* GHCommitGraphAnimator.app */,
+				0BEDBC9D2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEDBC832A12B3A400BD626E /* GHCommitGraphAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				0BEDBC842A12B3A400BD626E /* AppDelegate.swift */,
+				0BEDBC902A12B3A400BD626E /* ViewController.swift */,
+				0BEDBC922A12B3A400BD626E /* Main.storyboard */,
+				0BEDBC952A12B3A500BD626E /* Assets.xcassets */,
+				0BEDBC972A12B3A500BD626E /* GHCommitGraphAnimator.entitlements */,
+				0BEDBC982A12B3A500BD626E /* GHCommitGraphAnimator.entitlements */,
+				0BEDBC862A12B3A400BD626E /* Resources */,
+			);
+			path = GHCommitGraphAnimator;
+			sourceTree = "<group>";
+		};
+		0BEDBC862A12B3A400BD626E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BEDBC872A12B3A400BD626E /* Main.html */,
+				0BEDBC8A2A12B3A400BD626E /* Icon.png */,
+				0BEDBC8C2A12B3A400BD626E /* Style.css */,
+				0BEDBC8E2A12B3A400BD626E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BEDBCA12A12B3A500BD626E /* GHCommitGraphAnimator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0BEDBCA22A12B3A500BD626E /* SafariWebExtensionHandler.swift */,
+				0BEDBCB52A12B3A500BD626E /* Info.plist */,
+				0BEDBCB62A12B3A500BD626E /* GHCommitGraphAnimator_Extension.entitlements */,
+				0BEDBCA42A12B3A500BD626E /* Resources */,
+			);
+			path = "GHCommitGraphAnimator Extension";
+			sourceTree = "<group>";
+		};
+		0BEDBCA42A12B3A500BD626E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BEDBCA52A12B3A500BD626E /* _locales */,
+				0BEDBCA72A12B3A500BD626E /* images */,
+				0BEDBCA92A12B3A500BD626E /* manifest.json */,
+				0BEDBCAD2A12B3A500BD626E /* content.js */,
+				0B8F2CDC2A9310140030E601 /* popup.html */,
+				0BEDBCB12A12B3A500BD626E /* popup.css */,
+				0BA28BF92A188F3D003A4379 /* badapple.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEDBC802A12B3A400BD626E /* GHCommitGraphAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEDBCBD2A12B3A500BD626E /* Build configuration list for PBXNativeTarget "GHCommitGraphAnimator" */;
+			buildPhases = (
+				0BEDBC7D2A12B3A400BD626E /* Sources */,
+				0BEDBC7E2A12B3A400BD626E /* Frameworks */,
+				0BEDBC7F2A12B3A400BD626E /* Resources */,
+				0BEDBCBC2A12B3A500BD626E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BEDBCA02A12B3A500BD626E /* PBXTargetDependency */,
+			);
+			name = GHCommitGraphAnimator;
+			productName = GHCommitGraphAnimator;
+			productReference = 0BEDBC812A12B3A400BD626E /* GHCommitGraphAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BEDBC9C2A12B3A500BD626E /* GHCommitGraphAnimator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEDBCB92A12B3A500BD626E /* Build configuration list for PBXNativeTarget "GHCommitGraphAnimator Extension" */;
+			buildPhases = (
+				0BEDBC992A12B3A500BD626E /* Sources */,
+				0BEDBC9A2A12B3A500BD626E /* Frameworks */,
+				0BEDBC9B2A12B3A500BD626E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHCommitGraphAnimator Extension";
+			productName = "GHCommitGraphAnimator Extension";
+			productReference = 0BEDBC9D2A12B3A500BD626E /* GHCommitGraphAnimator Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEDBC792A12B3A400BD626E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0BEDBC802A12B3A400BD626E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0BEDBC9C2A12B3A500BD626E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 0BEDBC7C2A12B3A400BD626E /* Build configuration list for PBXProject "GHCommitGraphAnimator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BEDBC782A12B3A400BD626E;
+			productRefGroup = 0BEDBC822A12B3A400BD626E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEDBC802A12B3A400BD626E /* GHCommitGraphAnimator */,
+				0BEDBC9C2A12B3A500BD626E /* GHCommitGraphAnimator Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEDBC7F2A12B3A400BD626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEDBC8B2A12B3A400BD626E /* Icon.png in Resources */,
+				0BEDBC942A12B3A400BD626E /* Main.storyboard in Resources */,
+				0BEDBC8F2A12B3A400BD626E /* Script.js in Resources */,
+				0BEDBC892A12B3A400BD626E /* Main.html in Resources */,
+				0BEDBC962A12B3A500BD626E /* Assets.xcassets in Resources */,
+				0BEDBC8D2A12B3A400BD626E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEDBC9B2A12B3A500BD626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEDBCB22A12B3A500BD626E /* popup.css in Resources */,
+				0B8F2CDD2A9310140030E601 /* popup.html in Resources */,
+				0BEDBCA82A12B3A500BD626E /* images in Resources */,
+				0BA28BFA2A188F3D003A4379 /* badapple.mp3 in Resources */,
+				0BEDBCAA2A12B3A500BD626E /* manifest.json in Resources */,
+				0BEDBCA62A12B3A500BD626E /* _locales in Resources */,
+				0BEDBCAE2A12B3A500BD626E /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEDBC7D2A12B3A400BD626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEDBC912A12B3A400BD626E /* ViewController.swift in Sources */,
+				0BEDBC852A12B3A400BD626E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEDBC992A12B3A500BD626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEDBCA32A12B3A500BD626E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BEDBCA02A12B3A500BD626E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BEDBC9C2A12B3A500BD626E /* GHCommitGraphAnimator Extension */;
+			targetProxy = 0BEDBC9F2A12B3A500BD626E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BEDBC872A12B3A400BD626E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEDBC882A12B3A400BD626E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0BEDBC922A12B3A400BD626E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEDBC932A12B3A400BD626E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEDBCB72A12B3A500BD626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BEDBCB82A12B3A500BD626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0BEDBCBA2A12B3A500BD626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GHCommitGraphAnimator Extension/GHCommitGraphAnimator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7JFF9W7UZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GHCommitGraphAnimator Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GHCommitGraphAnimator Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrm1.GHCommitGraphAnimator.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0BEDBCBB2A12B3A500BD626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GHCommitGraphAnimator Extension/GHCommitGraphAnimator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7JFF9W7UZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GHCommitGraphAnimator Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GHCommitGraphAnimator Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrm1.GHCommitGraphAnimator.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0BEDBCBE2A12B3A500BD626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GHCommitGraphAnimator/GHCommitGraphAnimator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7JFF9W7UZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GHCommitGraphAnimator;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrm1.GHCommitGraphAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0BEDBCBF2A12B3A500BD626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GHCommitGraphAnimator/GHCommitGraphAnimator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7JFF9W7UZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GHCommitGraphAnimator;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrm1.GHCommitGraphAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEDBC7C2A12B3A400BD626E /* Build configuration list for PBXProject "GHCommitGraphAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEDBCB72A12B3A500BD626E /* Debug */,
+				0BEDBCB82A12B3A500BD626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEDBCB92A12B3A500BD626E /* Build configuration list for PBXNativeTarget "GHCommitGraphAnimator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEDBCBA2A12B3A500BD626E /* Debug */,
+				0BEDBCBB2A12B3A500BD626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEDBCBD2A12B3A500BD626E /* Build configuration list for PBXNativeTarget "GHCommitGraphAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEDBCBE2A12B3A500BD626E /* Debug */,
+				0BEDBCBF2A12B3A500BD626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEDBC792A12B3A400BD626E /* Project object */;
+}
