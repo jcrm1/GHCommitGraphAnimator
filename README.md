@@ -1,5 +1,5 @@
 # GHCommitGraphAnimator
-Animates the GitHub commit graph using a web extension. Can also play sound.  
+Displays Bad Apple on the GitHub commit graph using a web extension. Can also play sound.  
 Contains Bad Apple in text form in `content.js`. I recommend opening it in VS Code.  
 Most values are hardcoded. I might clean it up in the future. For now, it works, and that's enough for me.
 ### See it in action here:
